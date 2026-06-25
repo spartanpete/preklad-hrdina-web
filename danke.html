@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Děkujeme za vaši zprávu – preklad-hrdina.cz</title>
+<meta name="description" content="Vaše zpráva byla úspěšně odeslána. Pavel Hrdina – profesionální překlady CZ-SK-DE.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --gold:#C08A30;
+  --gold-light:#E8B96A;
+  --dark:#1A1209;
+  --cream:#FBF6EE;
+  --muted:#8A7A65;
+}
+body{
+  font-family:'Outfit',sans-serif;
+  background:linear-gradient(135deg,#1A1209 0%,#2A1F14 100%);
+  color:#fff;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:2rem 1.25rem;
+}
+.card{
+  max-width:520px;
+  width:100%;
+  text-align:center;
+}
+.checkmark{
+  width:72px;height:72px;
+  border-radius:50%;
+  background:var(--gold);
+  display:flex;align-items:center;justify-content:center;
+  margin:0 auto 1.75rem;
+}
+.checkmark svg{width:34px;height:34px}
+.eyebrow{
+  font-size:11px;letter-spacing:0.16em;text-transform:uppercase;
+  color:var(--gold);margin-bottom:1rem;font-weight:400;
+}
+h1{
+  font-family:'Cormorant Garamond',serif;
+  font-size:38px;font-weight:600;
+  margin-bottom:1rem;line-height:1.15;
+}
+h1 em{font-style:italic;color:var(--gold-light)}
+p{
+  font-size:15px;line-height:1.75;color:rgba(255,255,255,0.65);
+  font-weight:300;margin-bottom:2rem;
+}
+.btn-gold{
+  display:inline-block;background:var(--gold);color:#fff;
+  font-family:'Outfit',sans-serif;font-size:14px;font-weight:500;
+  padding:13px 30px;border-radius:3px;text-decoration:none;
+  transition:background 0.2s;
+}
+.btn-gold:hover{background:#A8751F}
+.contact-info{
+  margin-top:2.5rem;padding-top:2rem;
+  border-top:1px solid rgba(255,255,255,0.1);
+}
+.contact-info p{
+  font-size:13px;color:rgba(255,255,255,0.4);margin-bottom:0.5rem;
+}
+.contact-info a{color:var(--gold-light);text-decoration:none}
+.contact-info a:hover{text-decoration:underline}
+.logo{
+  font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;
+  color:rgba(255,255,255,0.5);margin-top:2.5rem;
+}
+.logo span{color:var(--gold)}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="checkmark">
+    <svg viewBox="0 0 24 24" fill="none">
+      <path d="M5 13l4 4L19 7" stroke="#1A1209" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+
+  <div class="eyebrow">preklad-hrdina.cz</div>
+  <h1>Děkujeme za <em>vaši zprávu</em></h1>
+  <p>Vaše poptávka byla úspěšně odeslána. Ozvu se vám do 24 hodin s nezávaznou cenovou nabídkou.</p>
+
+  <a href="index.html" class="btn-gold">Zpět na hlavní stránku →</a>
+
+  <div class="contact-info">
+    <p>Naléhavá záležitost?</p>
+    <p>
+      <a href="mailto:info@preklad-hrdina.cz">info@preklad-hrdina.cz</a>
+      &nbsp;·&nbsp;
+      <a href="tel:+420702173531">+420 702 173 531</a>
+    </p>
+  </div>
+
+  <div class="logo">preklad-hrdina<span>.cz</span></div>
+</div>
+
+</body>
+</html>
